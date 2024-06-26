@@ -31,4 +31,4 @@ def destroy(request, number):
 
 #/blogs/json - return a JsonResponse with title and content keys.
 def blogs_json(request):
-    return JsonResponse({'title': 'Sample Blog', 'content': 'This is a sample blog content'})
+    return JsonResponse({'title': 'My first blog', 'content': 'Surprise happened in our way to Istanbul'})
